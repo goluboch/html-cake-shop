@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(227, 249, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    background-color: rgb(221, 164, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 12px 15px rgb(87, 87, 87);
+}
+.headtext {
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+.logo {
+    width: 56px;
+    height: 56px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.anim {
+    animation-name: appear;
+    animation-duration: 2s;
+}
+.cartanim {
+    animation-name: upmove;
+    animation-duration: 2s;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes upmove {
+    0% {
+        opacity: 0;
+        margin-top: 200px;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+.maintxt {
+    height: fit-content;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    box-shadow: 0px 15px 20px rgb(87, 87, 87);
+}
+.pmain {
+    margin-top: 0px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.pinf {
+    font-size: 36px;
+    font-weight: bold;
+}
+.button {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 215, 254);
+    height: 36px;
+    width: 120px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+.button:hover {
+    background-color: rgb(248, 161, 245);
+    cursor: pointer;
+}
+.button:active {
+    background-color: rgb(175, 58, 171);
+    color: white;
+}
+.cart {
+    margin-left: 20px;
+    background-color: rgb(255, 181, 220);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgb(121, 121, 121);
+}
+.carts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caketxt {
+    margin-top: 5px;
+}
+.price {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.two-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.one {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 215, 254);
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.one:hover {
+    background-color: rgb(248, 161, 245);
+    cursor: pointer;
+}
+.one:active {
+    background-color: rgb(175, 58, 171);
+    color: white;
+}
+.two {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 215, 254);
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.two:hover {
+    background-color: rgb(248, 161, 245);
+    cursor: pointer;
+}
+.two:active {
+    background-color: rgb(175, 58, 171);
+    color: white;
+}
+.caketxt {
+    padding: 5px;
+}
+.cakeimg {
+    width: 128px;
+    height: 96px;
+}
+.inf {
+    color: rgb(139, 139, 139);
+    padding: 10px;
+    font-size: 15px;
+    text-align: right;
+}
+.name {
+    margin: 10px;
+}
+.mainrev {
+    margin: 10px;
+    margin-bottom: 15px;
+    height: 150px;
+}
+.anon {
+    margin: 10px;
+    margin-bottom: -3px;
+    margin-top: -3px;
+    font-size: 15px;
+}
+.rev {
+    margin-left: 20px;
+    background-color: rgb(255, 181, 220);
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgb(121, 121, 121);
+}
+.revsend {
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 215, 254);
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 120px;
+    height: 36px;
+}
+.revsend:hover {
+    background-color: rgb(248, 161, 245);
+    cursor: pointer;
+}
+.revsend:active {
+    background-color: rgb(175, 58, 171);
+    color: white;
+}
+textarea {
+    resize: none
+}

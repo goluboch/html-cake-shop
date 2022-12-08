@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Интернет-кондитерская</title>
+</head>
+<body>
+    <header class="navbar"> <!-- Логотип и кнопки для покупок -->
+        <div class="headtext anim">
+            <img class="logo" src="./icons/cake.png" alt="">
+            <h1>Интернет-кондитерская</h1>
+        </div>
+         <div class="anim"> <!-- Целый контейнер для трёх кнопок! Чудо какое -->
+            <button class="button">
+                <img src="./icons/box.png" alt="">
+                Каталог
+            </button>
+            <button class="button">
+                <img src="./icons/cart.png" alt="">
+                Корзина
+            </button>
+            <button class="button">
+                <img src="./icons/phone.png" alt="">
+                Наши номера
+            </button>
+        </div>
+    </header>
+    <div class="maintxt"> <!-- Основная страница, там где текст и карточки -->
+        <div class="pmain">
+            В нашем магазине вы сможете найти много разных сладостей на любой вкус.<br>
+            Что такое торт и как его готовить? Ответы лежат на этих страницах:<br>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%80%D1%82">Что такое торт?</a><br>
+            <a href="https://www.russianfood.com/recipes/bytype/?fid=39">Рецепт разных тортов</a><br>
+            <span class="pinf">Наш краткий ассортимент:</span>
+        </div>
+        <div class="carts cartanim"> <!-- Карточки -->
+            <div class="cart">
+                <div class="pic">
+                    <img class="cakeimg" src="./sm_350741.jpg" alt="">
+                    <span class="caketxt">Молочный торт</span>
+                    <span class="price">1000 руб</span>
+                </div>
+                <div class="two-buttons">
+                    <button class="one">
+                        <img src="./icons/page_go.png" alt="">
+                        Подробнее
+                    </button>
+                    <button class="two">
+                        <img src="./icons/cart_add.png" alt="">
+                        Купить
+                    </button>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="pic">
+                    <img class="cakeimg" src="./sm_411422.jpg" alt="">
+                    <span class="caketxt">Шоколадный торт</span>
+                    <span class="price">800 руб</span>
+                </div>
+                <div class="two-buttons">
+                    <button class="one">
+                        <img src="./icons/page_go.png" alt="">
+                        Подробнее
+                    </button>
+                    <button class="two">
+                        <img src="./icons/cart_add.png" alt="">
+                        Купить
+                    </button>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="pic">
+                    <img class="cakeimg" src="./big_289521.jpg" alt="">
+                    <span class="caketxt">Торт "Сникерс"</span>
+                    <span class="price">1500 руб</span>
+                </div>
+                <div class="two-buttons">
+                    <button class="one">
+                        <img src="./icons/page_go.png" alt="">
+                        Подробнее
+                    </button>
+                    <button class="two">
+                        <img src="./icons/cart_add.png" alt="">
+                        Купить
+                    </button>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="pic">
+                    <img class="cakeimg" src="./mars.jpg" alt="">
+                    <span class="caketxt">Торт "Марс"</span>
+                    <span class="price">1700 руб</span>
+                </div>
+                <div class="two-buttons">
+                    <button class="one">
+                        <img src="./icons/page_go.png" alt="">
+                        Подробнее
+                    </button>
+                    <button class="two">
+                        <img src="./icons/cart_add.png" alt="">
+                        Купить
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        <h1 class="pmain">Оставьте отзыв о нас</h1>
+        <div class="carts">
+        <div class="rev">
+            <input class="name" type="text" placeholder="Ваше имя">
+            <span class="anon">Отправить анонимно<input type="checkbox"></input></span> 
+            <textarea class="mainrev" type="text" placeholder="Отзыв" wrap="hard"></textarea>
+                <div class="two-buttons">
+                    <button onclick="sentReview()" class="revsend">
+                        <img src="./icons/arrow_redo.png" alt="">
+                        Отправить
+                    </button>
+                    <script>
+                        function sentReview() {
+                            alert("Ваш отзыв был отправлен!");
+                        }
+                    </script>
+                </div>
+                </div>
+            </div>
+        <footer class="inf"> <!-- Информация -->
+            Наш ВКонтакте: <a href="https://vk.com/">Интернет-кондитерская ВКонтакте</a><br>
+            Наш Телеграм чат: <a href="https://t.me/">Чат интернет-кондитерской</a><br>
+            Наш адрес: 615705, Воронежская область, город Ногинск, пер. Ленина, 80
+        </footer>
+    </div>
+</body>
+</html>

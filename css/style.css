@@ -114,6 +114,7 @@ header {
 }
 .button:active {
     background-image: linear-gradient(rgb(255, 157, 252),rgb(255, 215, 254));
+    transform: translate(0px,1px);
 }
 .cart {
     margin-top: 20px;
@@ -164,6 +165,7 @@ header {
 }
 .one:active {
     background-image: linear-gradient(rgb(255, 157, 252),rgb(255, 215, 254));
+    transform: translate(0px,1px);
 }
 .two {
     height: 24px;
@@ -181,6 +183,7 @@ header {
 }
 .two:active {
     background-image: linear-gradient(rgb(255, 157, 252),rgb(255, 215, 254));
+    transform: translate(0px,1px);
 }
 .caketxt {
     padding: 5px;
@@ -243,6 +246,7 @@ footer {
 }
 .revsendbut:active {
     background-image: linear-gradient(rgb(255, 157, 252),rgb(255, 215, 254));
+    transform: translate(0px,1px);
 }
 textarea {
     resize: none

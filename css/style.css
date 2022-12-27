@@ -52,14 +52,14 @@ header {
 @keyframes upmove {
     0% {
         opacity: 0;
-        margin-top: 200px;
+        transform: translate(0px, 200px);
     }
     50% {
         opacity: 0.5;
     }
     100% {
         opacity: 1;
-        margin-top: 0px;
+        transform: translate(0px, 0px);
     }
 }
 @keyframes shake {      /* Страшная, я её скопировал с сайта */

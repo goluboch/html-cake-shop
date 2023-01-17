@@ -10,15 +10,15 @@ header {
     box-shadow: 0px 12px 15px rgb(87, 87, 87);
     border-radius: 15px;
 }
-.butico {
+.butico {               /* Класс для иконок в кнопке */
     margin-right: 3px;
 }
-.logotext {
+.logotext {             /* Текст в логотипе */
     display: flex;
     color: rgb(206, 51, 201);
     justify-content: center;
 }
-.logo {
+.logo {                 /* Логотип */
     width: 56px;
     height: 56px;
     image-rendering: auto;
@@ -28,7 +28,7 @@ header {
     margin-right: 10px;
 
 }
-.logo:hover {
+.logo:hover {           /* Анимация тряски при наведении на логотип */
     animation: shake;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
@@ -82,6 +82,8 @@ header {
     margin-right: 150px;
     font-size: 20px;
     box-shadow: 0px 15px 20px rgb(87, 87, 87);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .pmain {
     margin-top: 0px;
@@ -150,7 +152,7 @@ header {
     display: flex;
     justify-content: space-around;
 }
-.one {
+.one {      /* Ниже копии с класса button */
     height: 24px;
     display: flex;
     justify-content: space-around;
@@ -186,10 +188,10 @@ header {
     background-image: linear-gradient(rgb(255, 157, 252),rgb(255, 215, 254));
     transform: translate(0px,1px);
 }
-.caketxt {
+.caketxt {              /* Текст в карточке */
     padding: 5px;
 }
-.cakeimg {
+.cakeimg {              /* Изображение торта в карточке */
     width: 128px;
     height: 96px;
     border-radius: 5px;
@@ -203,7 +205,7 @@ footer {
 .name {
     margin: 10px;
 }
-.mainrev {
+.mainrev {             /* Поле для отзыва */
     margin: 10px;
     margin-bottom: 15px;
     height: 150px;
